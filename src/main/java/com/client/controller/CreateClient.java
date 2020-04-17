@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class CreateClient {
-    @RequestMapping("/insert-client")
+    @RequestMapping("/demo")
     public String show(){
-        String url = "insert-client";
+        String url = "demo";
         return url;
     }
 }
